@@ -1,0 +1,14 @@
+﻿@model dt102g_moment_2.Models.Name
+@{
+    Layout = "_LayoutLogin";
+    ViewData["Title"] = "Login/Login";
+}
+
+<h1>Hej!</h1>
+<h2>Vänligen skriv ditt namn</h2>
+@using (Html.BeginForm("GetName", "Login", FormMethod.Post, new { @class = "name-input-form" }))
+{
+    @Html.TextBoxFor(name => name.NameProp)
+    <button type="submit"><i class='fas fa-angle-right'></i></button>
+}
+<em>Genom att gå vidare sparas ditt namn och klockslag</em>

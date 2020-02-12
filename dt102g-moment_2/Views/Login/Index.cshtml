@@ -1,0 +1,34 @@
+﻿@model List<dt102g_moment_2.Models.Latest>
+@{
+    ViewData["Title"] = "Login/Startsida";
+}
+
+<div class="content">
+    <span><i class="fas fa-user-circle"></i> @ViewData["viewName"]</span>
+
+    <p>
+        <a asp-controller="Login" asp-action="Index">Startsida</a>: Denna sida du står på nu
+    </p>
+    <p>
+        <a asp-controller="Home" asp-action="Index">Ändra controller</a>: Testa att visa en View i en annan Controller
+    </p>
+    <p>
+        <a asp-controller="Login" asp-action="Login">Lägg till nytt besök</a>: Besök den första sidan och lägg till ett nytt besök/testa ett annat namn
+    </p>
+
+</div>
+<table>
+    <thead>
+        <tr>
+            <th colspan="2">Webbplatsens senaste besökare</th>
+        </tr>
+    </thead>
+    @foreach (var data in Model)
+    {
+        <tr>
+            <th>@data.Name</th>
+            <td>@data.CurrentTime</td>
+        </tr>
+    }
+</table>
+

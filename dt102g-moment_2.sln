@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dt102g-moment_2", "dt102g-moment_2\dt102g-moment_2.csproj", "{EAE41949-9AFF-4A43-833F-91094FCDEDD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAE41949-9AFF-4A43-833F-91094FCDEDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE41949-9AFF-4A43-833F-91094FCDEDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE41949-9AFF-4A43-833F-91094FCDEDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE41949-9AFF-4A43-833F-91094FCDEDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
